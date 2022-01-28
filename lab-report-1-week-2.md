@@ -4,7 +4,7 @@
 * The goal for this lab is to set up the system and environment for the CSE Lab wiht commands that work with the filesystem
 
 ## Part 2: installing Visual Studio Code
-* Download the VS Code on the webiste [Visual studio Code] (https://code.visualstudio.com/)
+* Download the VS Code on the webiste [Visual studio Code](https://code.visualstudio.com/)
 * Slect the correct version for your computer OSX (for Macs) and Windows (for PCs)
 * After the installation, you should see a work station look like this
 
@@ -14,14 +14,23 @@
 ## Part 3: Remotely Connecting
 * After you get your account you should enter this command in your terminal "ssh cs15lwi22zz@ieng6.ucsd.edu" with your account name
 * Type in the password to login
-* After your login to your ssh account, you should see the following ![Image](LR2.png)
+* After your login to your ssh account, you should see the following
+ 
+![Image](LR2.png)
 
 ## Part 4: Run Some Commands
 * Try running the commands cd, ls, pwd, mkdir, and cp a few times in different ways
 * See what comes out after enter your command
 * To logout, you can enter the command "exit"
 * There are some useful commands you can try:
-* 
+`cd ~`
+`cd`
+`ls -lat`
+`ls -a`
+* `/home/linux/ieng6/cs15lwi22/cs15lwi22abc` where the `abc` is one of the other group members’ username
+* `cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/`
+* `cat /home/linux/ieng6/cs15lwi22/public/hello.txt`
+
 ![Image](LR3.png)
 
 ## Part 5: Moving Files With Scp
@@ -68,3 +77,10 @@
 * Like the following:
 
 ![Image](LR6.png)
+* Keystrokes:
+* 1. Use up-arrow key for command `scp WhereAmI.java cs15lwi22axe@ieng6.ucsd.edu:~/` return, tooks 4 keystrokes.
+  2. Use up-arrow key for command `ssh cs15lwi22axe@ieng6.ucsd.edu` tooks 2 keystrokes.
+  3. Copy-paste the following command: `cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI` to the end of the previous command,  which takes me 3 keystrokes.
+* Total 9 Keystrokes.
+* These following commands is a multiple commands on the same line which will shows your user folder:
+![Image](LR7.png)
