@@ -4,7 +4,7 @@
 * The goal for this lab is to set up the system and environment for the CSE Lab wiht commands that work with the filesystem
 
 ## Part 2: installing Visual Studio Code
-* Download the VS Code on the webiste https://code.visualstudio.com/
+* Download the VS Code on the webiste [Visual studio Code] (https://code.visualstudio.com/)
 * Slect the correct version for your computer OSX (for Macs) and Windows (for PCs)
 * After the installation, you should see a work station look like this
 
@@ -20,7 +20,8 @@
 * Try running the commands cd, ls, pwd, mkdir, and cp a few times in different ways
 * See what comes out after enter your command
 * To logout, you can enter the command "exit"
-
+* There are some useful commands you can try:
+* 
 ![Image](LR3.png)
 
 ## Part 5: Moving Files With Scp
