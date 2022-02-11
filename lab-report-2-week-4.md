@@ -15,10 +15,11 @@ Then in every loop `nextOpenBracket` is not updated, so none of the other variab
 ![Image](2LR3.png)
 
 ## Case 2 
-The failing output is like: [test-file2.md](test-file2.md)
+The failing output is like: 
 
 ![Image](2LR8.png)
-This is the *failure-inducing input*: [test-file6.md](test-file6.md)
+
+This is the *failure-inducing input*: [test-file2.md](test-file2.md)
 * To fix this error we have to check the link is image or website link, it can has a big difference with `!` or not. So we set a condition checks whether it contains "!", we only wnats the webiste link to be printed.
 ![Image](2LR9.png)
 
