@@ -8,7 +8,7 @@
 ## Snippet 1
 Test:
 
-![image](4lab redo.png)
+![image](4labredo.png)
 
 Expected: `['google.com, google.com, ucsd.edu]`
 
